@@ -7,7 +7,10 @@ export default function Home() {
         Next.js 15 Caching Tutorial
       </h1>
       <div>
-        <Link href="https://www.owolf.com/blog/caching-in-nextjs-15-a-developers-guide">
+        <Link
+          target="_blank"
+          href="https://www.owolf.com/blog/caching-in-nextjs-15-a-developers-guide"
+        >
           See the tutorial here.
         </Link>
       </div>
