@@ -57,8 +57,11 @@ export default function Home() {
             href="/api-example"
             className="block p-4 rounded border hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
-            <strong>API Data with `fetch`</strong> — Cached API response,
-            revalidated after 15 seconds.
+            <strong>
+              API Caching with <code>fetch()</code>
+            </strong>{" "}
+            — Fetches live data from an external API and caches the result for
+            15 seconds. Refresh the page to see the cache in action.
             <br />
             <code>
               fetch(..., &#123; next: &#123; revalidate: 15 &#125; &#125;)
