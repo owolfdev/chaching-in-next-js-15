@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-8 sm:px-20 py-20 gap-10 font-sans">
       <h1 className="text-3xl sm:text-5xl font-bold text-center">
-        Next.js 15 Caching Tutorial
+        Next.js 15 Caching Examples
       </h1>
       <div>
         <Link
